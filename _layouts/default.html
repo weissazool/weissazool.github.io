@@ -28,13 +28,20 @@
 			</noscript>
 			<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
     </head>
-    <body class="homepage">
-
+		
+		{% if page.category == 'homepage' %}
+	    <body class="homepage">
+		{% else %}
+			<body class="no-sidebar">
+		{% endif %}
+			
 			<!-- Header -->
 				<div id="header">
 						
+					
 					<!-- Inner -->
 						<div class="inner">
+							{% if page.category == 'homepage' %}			
 							<header>
 								<h1><a href="#" id="logo">{{ site.name }}</a></h1>
 								<hr />
@@ -43,26 +50,26 @@
 							<footer>
 								<a href="#banner" class="button circled scrolly">IKU</a>
 							</footer>
+							{% else %}
+							<header>
+								<h1><a href="#" id="logo">{{ site.name }}</a></h1>
+							</header>
+							{% endif %}
 						</div>
 				
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="left-sidebar.html">Who</a></li>
-								<li><a href="right-sidebar.html">Where</a></li>
-								<li><a href="no-sidebar.html">When</a></li>
+								<li><a href="no-sidebar.html">Who</a></li>
+								<li><a href="no-sidebar.html">Play</a></li>
 								<li><a href="no-sidebar.html">Gallery</a></li>
 								<li><a href="no-sidebar.html">Contact</a></li>
 							</ul>
 						</nav>
 
 				</div>
-<!-->        <div class="site"> 
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div><!-->
+
 
           {{ content }}
 
