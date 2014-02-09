@@ -31,7 +31,7 @@ category: homepage
 				<span class="byline">Ipsum volutpat consectetur orci metus consequat imperdiet duis integer semper magna.</span>
 			</header>
 			<div class="row">
-				{% for field in site.categories.fields %}
+				{% for field in site.categories.field %}
 					<article class="6u special">
 						<a href="fields/index.html#{{ field.name }}" class="image featured">
 						<img src="images/{{ field.name }}.jpg" alt="" /></a>
@@ -53,17 +53,28 @@ category: homepage
 	
 	
 <!-- Gallery -->	
-	<div id="gallery">
-		{% for gallery in site.categories.galleries %}
-		<!-- 
-			Show key picture.
-			Show title.
-			Show subtitle.
-			Use Helios Carousel style.
-			Links to: flickr page?
-			So each gallery item basically only needs to be front matter, no content.
-		-->
+	<div class="carousel">
+		<div class="reel">
+
+		{% for album in site.categories.album %}
+			<!-- 
+				Show key picture.
+				Show title.
+				Show subtitle.
+				Use Helios Carousel style.
+				Links to: flickr page?
+				So each gallery item only needs to be front matter, no content.
+			-->
+			<article>
+				<a href="{{ album.album_url }}" class="image featured"><img src="{{ album.cover_image }}" alt="" /></a>
+				<header>
+					<h3><a href="{{ album.album_url }}">{{ album.title }} | {{ album.date | date: '%b %d, %Y' }}</a></h3>
+				</header>
+				<p>{{ album.subtitle }}</p>							
+			</article>
 		{% endfor %}
+		
+	</div>
 	</div>
 
 

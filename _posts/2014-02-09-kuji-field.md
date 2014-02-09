@@ -2,7 +2,7 @@
 layout: field
 title: "Kuji - Unane grounds"
 date: 2014-02-09
-category: fields
+category: field
 name: kuji
 subhead: "Sunday practice & pickup"
 ---

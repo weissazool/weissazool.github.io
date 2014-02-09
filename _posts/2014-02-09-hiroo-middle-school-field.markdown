@@ -2,7 +2,7 @@
 layout: field
 title: "Hiroo Middle School"
 date: 2014-02-09
-category: fields
+category: field
 name: hiroo
 subhead: "Weeknight pickup"
 ---
