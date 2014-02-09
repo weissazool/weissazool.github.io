@@ -14,9 +14,9 @@ category: gallery
 			</header>
 			<div class="row">
 				{% for album in site.categories.album %}
-				<article class="4u special">
-					
-				</article>
+					<article class="4u special">
+						{% include _album.html %}
+					</article>
 				{% endfor %}
 			</div>
 		</section>
