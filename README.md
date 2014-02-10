@@ -15,6 +15,8 @@ Otherwise, download the zip. Links to your right.
 
 Once it's on your local drive, `gem install jekyll`.
 
+If that doesn't work, you need to install [RubyGems][rubygems].
+
 In the directory the site is in, `jekyll serve`.
 
 Then point your browser to [localhost:4000][localhost].
@@ -25,6 +27,7 @@ A brief explanation of what all is going on can be found on the
 
 
 [iku-ultimate]: http://weissazool.github.io
+[rubygems]: http://rubygems.org/pages/download
 [localhost]: http://localhost:4000
 [jekyll]: http://jekyllrb.com
 [structure]: http://jekyllrb.com/docs/structure/
