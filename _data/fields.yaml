@@ -1,0 +1,100 @@
+---
+- title: Kuji
+	subtitle: Unane grounds
+	schedule: "Sunday practice & pickup"
+	schedule_details: >
+    "2pm to dusk"
+    "Please check the facebook page."
+    "A Note on Sunday Pickup"
+    "Due to the increasing schedule of IKU and Kuru practices, an 
+     increasing schedule of tournaments, and increasing difficulties 
+     in field availability, pickup has not been as regular recently 
+     as it used to be. We encourage you to contact us or check on our 
+     facebook page to confirm that pickup is on before coming out."
+    
+	maps: 
+    - title: "Getting to the field"
+      link: ""
+      #		<iframe marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;om=0&amp;t=h&amp;s=AARTsJp-v0qlFejVlPMmcPRqz72DEuHgYA&amp;msa=0&amp;msid=103499737060840197423.000440430925d2594b97a&amp;ll=35.611674,139.607434&amp;spn=0.011862,0.032616&amp;z=15&amp;output=embed" frameborder="0" height="340" scrolling="no" width="760">
+      #   <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;om=0&amp;t=h&amp;msa=0&amp;msid=103499737060840197423.000440430925d2594b97a&amp;ll=35.611674,139.607434&amp;spn=0.011862,0.032616&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a>
+      description: >
+        "From Futako-Shinchi Station (Denentoshi Line), it's up to a 1.2 mile walk.
+         (Red path)"
+		    "From Kuji Station (JR Nambu Line), it's a 0.8 mile walk. (Blue path)"
+
+	directions: >
+    
+    "If you haven't been out to play before, Futako-Shinchi is the easier
+     station to travel from without getting lost -- plus at times we play
+     right by the station."
+    
+    "From Futako-Shinchi Station"
+
+    "Exit out the north exit, and turn left to head towards the river. 
+     You'll pass a few convenience stores where you can pick up water
+     if you need it. Continue straight at a traffic light and you'll 
+     eventually reach a road running parallel to the river. Cross this 
+     street and look out at the baseball fields straight in front of 
+     you -- if the fields here are free of baseballers we typically 
+     play here, right at the station. If you don't see discs, however, 
+     head down to the dirt path just before the baseball fields, turn 
+     left, and continue heading away from the train tracks. You'll 
+     eventually need to cross a bridge, and then keep walking. 
+     Eventually you'll reach a new set of fields set back from the 
+     road (if you've followed the dirt path the whole way, there'll be 
+     a mini-golf course to your left and fields to your right). We'll 
+     either be playing abeam to the mini-golf course or past it."
+
+    "From Kuji Station"
+
+    "Head out the (single set of) faregates and turn right. You'll 
+     come to a intersection with a pedestrian crossover. Either use 
+     the crossover or cross the street in both directions, then turn 
+     left. Take the next Right (after the conbini) and head down the 
+     side street to the second traffic light. Turn right here and 
+     follow the street down to the river road (you'll see an emankment 
+     and fields beyond it). Generally speaking we play to the right of 
+     here; turn right and then head in at the first road on the left 
+     (which will take you to the parking lot)."
+
+    "NOTE: If we're playing at the baseball fields at Futako-Shinchi 
+     station, you will have a very long walk from Kuji station. The 
+     directions here take you to the Kuji Fields which are about 
+     1.2 miles from Futako-Shinchi station. If you reach the Kuji 
+     Fields and learn that we're at the Shinchi baseball fields, turn 
+     right while facing the river (so the river is on your left) and 
+     start walking... we'll be straight ahead just before you reach 
+     the railroad bridge."
+  equipment: ""
+    
+- title: Hiroo
+  subtitle: Hiroo Middle School
+  schedule: "Weeknight, one night per week, 6:30pm-8:45pm"
+  schedule_details: >
+    Weeknight Schedule
+
+    "We book the fields once per two-month period, and the specific dates
+     we have the field reserved are posted to our Facebook Group. Note that 
+     cleats are not allowed at weeknight pickup (trainers/tennis shoes only)."
+
+    "Hiroo Jr. High School does not allow us to play if it is raining or if
+     the ground is not dry. If the weather is questionable, check the forum
+     before heading out."
+    
+	maps: 
+    - title: "Getting to the field from Ebisu station"
+      link: ""
+      description: ""
+    - title: "Getting to the field from Shibuya station"
+      link: ""
+      description: ""
+    - title: "Getting to the field from Hiroo station"
+      link: ""
+      description: ""
+
+  directions: >
+    Hiroo Jr. High School is conveniently located near Ebisu, Shibuya, 
+    and Hiroo stations. If you haven't been before, the school and field 
+    are easiest to find from Ebisu station.
+  equipment: ""
+    
