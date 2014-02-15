@@ -56,12 +56,12 @@ category: homepage
 				<span class="byline">Ipsum volutpat consectetur orci metus consequat imperdiet duis integer semper magna.</span>
 			</header>
 			<div class="row">
-				{% for field in site.data.field %}
+				{% for field in site.data.fields %}
 					<article class="6u special">
-						<a href="/fields/index.html#{{ field.name }}" class="image featured">
+						<a href="/fields/index.html#{{ field.title }}" class="image featured">
 						<img src="/images/{{ field.images }}" alt="" /></a>
 						<header>
-							<h3><a href="/fields/index.html#{{ field.name }}">
+							<h3><a href="/fields/index.html#{{ field.title }}">
 								{{ field.title }}</a></h3>
 						</header>
 						<p>{{ field.subtitle }}</p>
