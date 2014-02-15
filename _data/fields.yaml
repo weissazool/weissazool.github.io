@@ -67,15 +67,15 @@
       heading out.
   maps: 
     - title: "Getting to the field from Ebisu station"
-      link: "http://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kh1OfSzyXD60"
+      link: "https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kh1OfSzyXD60"
       # <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kh1OfSzyXD60" width="640" height="480"></iframe>
       description: "Best exits: JR west exit or Hibiya line exit 2."
     - title: "Getting to the field from Shibuya station"
-      link: "http://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kp65hVhrLas0"
+      link: "https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kp65hVhrLas0"
       # <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kp65hVhrLas0" width="640" height="480"></iframe>
       description: "Best exit: JR east exit."
     - title: "Getting to the field from Hiroo station"
-      link: "http://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kNhni1cPxOTw"
+      link: "https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kNhni1cPxOTw"
       # <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kNhni1cPxOTw" width="640" height="480"></iframe>
       description: "Best exit: exit 3."
 
