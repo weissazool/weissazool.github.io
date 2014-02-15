@@ -56,7 +56,18 @@ category: homepage
 				<span class="byline">Ipsum volutpat consectetur orci metus consequat imperdiet duis integer semper magna.</span>
 			</header>
 			<div class="row">
-				{% for field in site.categories.field %}
+				{% for field in site.data.field %}
+					<article class="6u special">
+						<a href="/fields/index.html#{{ field.name }}" class="image featured">
+						<img src="/images/{{ field.images }}" alt="" /></a>
+						<header>
+							<h3><a href="/fields/index.html#{{ field.name }}">
+								{{ field.title }}</a></h3>
+						</header>
+						<p>{{ field.subtitle }}</p>
+					</article>
+				{% endfor %}	
+				<!-- {% for field in site.categories.field %}
 					<article class="6u special">
 						<a href="/fields/index.html#{{ field.name }}" class="image featured">
 						<img src="/images/{{ field.name }}.jpg" alt="" /></a>
@@ -66,7 +77,7 @@ category: homepage
 						</header>
 						<p>{{ field.subhead }}</p>
 					</article>
-				{% endfor %}
+				{% endfor %} -->
 			</div>
 			<footer>
 				<h3><a href="http://www.facebook.com/groups/tokyoultimate">
