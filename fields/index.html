@@ -25,6 +25,14 @@ category: fields
             {% for p in field.schedule_details %}
     					<p>{{ p }}</p>
             {% endfor %}
+            {% for map in field.maps %}
+            <section>
+              <header>
+                <h3>{{ map.title }}</h3>
+              </header>
+              <iframe src="{{ map.link }}" height=600 class="image featured"></iframe>
+            </section>
+            {% endfor %}
   					<section>
   						<header>
   							<h3>Ultrices tempor sagittis nisl</h3>
