@@ -1,0 +1,63 @@
+---
+layout: default
+title: Tokyo Ultimate Fields
+category: fields
+---
+
+<!-- Fields -->
+
+<div class="wrapper style1">
+
+  {% for field in site.data.fields %}
+  <!-- <div id="{{ field.title }}"> -->
+  	<div class="container">
+  		<div class="row">
+  			<div class="12u skel-cell-important" id="content">
+  				<article id="{{ field.title }}" class="special">
+          <!-- <article id="main" class="special"> -->
+  					<header>
+  						<h2><a href="#{{ field.title }}">{{ field.title }} - {{ field.subtitle }}</a></h2>
+  						<span class="byline">
+  							{{ field.schedule }}
+  						</span>
+  					</header>
+  					<a href="/images/{{ field.images }}" class="image featured"><img src="/images/{{ field.images }}" alt="" /></a>
+            {% for p in field.schedule_details %}
+    					<p>{{ p }}</p>
+            {% endfor %}
+  					<section>
+  						<header>
+  							<h3>Ultrices tempor sagittis nisl</h3>
+  						</header>
+  						<p>
+  							Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
+  							at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis 
+  							feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit 
+  							fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus 
+  							egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna. 
+  						</p>
+  						<p>
+  							Eleifend auctor turpis magnis sed porta nisl pretium. Aenean suspendisse nulla eget sed etiam parturient 
+  							orci cursus nibh. Quisque eu nec neque felis laoreet diam morbi egestas. Dignissim cras rutrum consectetur 
+  							ut penatibus fermentum nibh erat malesuada varius. 
+  						</p>
+  					</section>
+  					<section>
+  						<header>
+  							<h3>Augue euismod feugiat tempus</h3>
+  						</header>
+  						<p>
+  							Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis 
+  							feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit 
+  							ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante 
+  							egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna. 
+  						</p>
+  					</section>
+  				</article>
+  			</div>
+  		</div>
+  		<hr />
+    </div>
+  <!-- </div> -->
+  {% endfor %}
+</div>
