@@ -3,13 +3,14 @@
   subtitle: "Unane grounds"
   images: kuji.jpg
   schedule: "Sunday practice & pickup, 2pm to dusk"
-  schedule_details: >
-    Due to the increasing schedule of IKU and Kuru practices, more 
-    tournaments, and less field availability, pickup has not been as 
-    regular as it used to be.
-     
-    Please check our facebook page to confirm that pickup is on 
-    before coming out.
+  schedule_details: 
+    - >
+      Due to the increasing schedule of IKU and Kuru practices, more 
+      tournaments, and less field availability, pickup has not been as 
+      regular as it used to be.
+    - > 
+      Please check our facebook page to confirm that pickup is on 
+      before coming out.
     
   maps: 
     - title: Getting to the field
@@ -56,14 +57,14 @@
   subtitle: Hiroo Middle School
   images: hiroo.jpg
   schedule: "Weeknight pickup, one night per week, 6:30pm-8:45pm"
-  schedule_details: >
-    "We book the fields once per two-month period. The specific dates
-     we that we will play are posted to our Facebook group."
-
-    "We cannot use the fields if it is raining or if the ground is wet.
-     If the weather is questionable, check the Facebook group before 
-     heading out."
-    
+  schedule_details: 
+    - >
+      We book the fields once per two-month period. The specific dates
+      we that we will play are posted to our Facebook group.
+    - >
+      We cannot use the fields if it is raining or if the ground is wet.
+      If the weather is questionable, check the Facebook group before
+      heading out.
   maps: 
     - title: "Getting to the field from Ebisu station"
       link: "https://mapsengine.google.com/map/u/0/embed?mid=ziA9ESwtCZL4.kh1OfSzyXD60"
