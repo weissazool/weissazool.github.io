@@ -10,9 +10,7 @@
   --black-coral: hsla(216, 14%, 42%, 1);
   --dark-purple: hsla(295, 97%, 14%, 1);
   --maximum-blue: hsla(196, 52%, 80%, 1);
-/*}*/
 
-/*@media (prefers-color-scheme: light) {*/
   --background-color: var(--maximum-blue);
   --primary-item-color: var(--snow);
   --secondary-item-color: var(--black-coral);
@@ -191,25 +189,6 @@ a {
 footer {
   color: var(--secondary-item-color);
 }
-
-/*@media (prefers-color-scheme: dark) {*/
-/*  body {*/
-/*    background-color: ;*/
-/*  }*/
-/*  */
-/*  body,*/
-/*  header .site-name {*/
-/*    color: snow;*/
-/*  }*/
-/*  */
-/*  .item-list > li {*/
-/*    background-color: black-coral;*/
-/*  }*/
-/*  */
-/*  header {*/
-/*    background-color: black-coral;*/
-/*  }*/
-/*}*/
 
 @media(max-width: 600px) {
   .wrapper {
